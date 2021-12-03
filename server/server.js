@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const controller = require("./controller");
 const app = express();
 
 app.use(express.json());

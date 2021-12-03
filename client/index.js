@@ -39,7 +39,6 @@ async function deletePlace(e) {
 
 async function addPlace(event) {
   event.preventDefault();
-  // list.removeChild(list.childNodes[0]);
   let inputField = document.querySelector("input");
   const response = await axios.post(baseURL, { place: inputField.value });
   console.log(response.data);
